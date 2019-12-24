@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../Ripple Carry Adder.srcs/sources_1/new/Half_Adder.vhd" \
+"../../../../Ripple Carry Adder.srcs/sim_1/new/sin_HA.vhd" \
+
+# Do not sort compile order
+nosort
